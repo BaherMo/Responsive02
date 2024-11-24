@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.custom-login-btn {
+    border-color: transparent !important; 
+    background-color: #e8f8ee; 
+    color: #198754; 
+  }
+  
+  .custom-login-btn:hover {
+    background-color: #198754; 
+    color: #fff; 
+  }
+  
+.custom-signup-btn {
+    background-color: #198754; 
+    color: #fff; 
+    border-color: #198754; 
+}
+  
+.custom-signup-btn:hover {
+    background-color: #155c40; 
+    color: #fff; 
+}
+  
+.box{
+    width:65px;
+    height:65px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0); 
+    border-radius: 5px;
+}
+
+.custom-green{
+    color:#5AB97F;
+    background-color: #DCF0E2;
+}
+
+.custom-purple{
+    color:#927CEB;
+    background-color: #E9E4FB;
+}
+
+.new-custom-green{
+    color:#5AB97F;
+}
+
+.custom-new-btn {
+    background-color: #51B56D; 
+    color: #fff; 
+    border-color: #51B56D; 
+    border-radius: 12px;
+}
+
+.box1{
+    width:700px;
+    height:450px;
+    background-color: white;
+}
+.accordion-item {
+    border: none; /* Removes the border around each accordion item */
+}
+
+.box2{
+    width:350px;
+    height:400;
+
+    background-color: white;
+}
+
+/* Box Styling */
+.box3 {
+    border: 1px solid #dcdcdc; /* Border around the box */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+
+
+    padding:20px;
+}
+
+/* Parent Column Styling */
+.col-lg-3 { /* Add space to account for the absolute box */
+    height: auto; /* Ensure the column accommodates the absolute box */
+}
+
+.email-subscribe .form-control {
+    border-right: none; /* Remove the border overlap between input and button */
+}
+
+.email-subscribe .btn {
+    border-left: none; /* Seamless transition between input and button */
+}
+.custom-new-btn:hover {
+    background-color: #198754; 
+    color: #fff; 
+    border-color: #51B56D; 
+    border-radius: 12px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+
+.social-icon {
+    font-size: 1rem; /* Set a uniform font size for all icons */
+    width: 40px; /* Set consistent width */
+    height: 40px; /* Set consistent height */
+    display: flex;
+    justify-content: center; /* Center the icon inside the box */
+    align-items: center; /* Vertically center the icon */
+    border: 1px solid #f3eeee; /* Set border to all icons */
+    border-radius: 10%; /* Round the corners */
+    padding: 15px; /* Ensure uniform padding */
+}
+.custom-margin{
+    padding-bottom: 100px;
+}
